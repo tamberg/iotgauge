@@ -108,13 +108,15 @@ Download the [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontr
 
 On Mac OS X, extract the ZIP to `~/Documents/Arduino/libraries/YalerESP8266WiFiServer`
 
-On Windows extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\YalerESP8266WiFiServer`
+On Windows, extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\YalerESP8266WiFiServer`
+
+Then, close and reopen the Arduino IDE to load the library.
 
 ### Upload the IoT Gauge Web service source code
 
 Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE, then click the upload button.
 
-(Or copy & paste the source code into a new Arduino sketch, then click the uplocad button.)
+(Or copy & paste the source code into a new Arduino sketch, then click the upload button.)
 
 ### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD
 
