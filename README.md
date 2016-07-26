@@ -118,7 +118,7 @@ Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/
 
 (Or copy & paste the source code into a new Arduino sketch, then click the upload button.)
 
-### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD
+### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and _PASSWORD
 
 Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi network.
 
