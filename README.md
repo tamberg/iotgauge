@@ -146,7 +146,7 @@ If necessary, download and install Curl from https://curl.haxx.se/download.html
 
 Type `$ curl -vX POST http://RELAY_DOMAIN.try.yaler.io/pos/3` to set the servo to position 3 (use your relay domain).
 
-Try any position between 1 and 5. Make sure the servo moved the hand to the desired position (adjust the hand if necessary).
+Try any position between 1 and 5. Make sure the servo moved to the desired position (adjust the hand if necessary).
 
 ## Part 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
