@@ -35,7 +35,7 @@ All downloads are listed here for convenience, we will use them later on.
 * [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library for remote access
 * [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) source code for Adafruit Feather HUZZAH / ESP8266
 
-## Step 0: Getting started
+## Part 0: Getting started
 
 How to set up the Arduino development environment and run your first program on the Adafruit Feather HUZZAH.
 
@@ -58,7 +58,7 @@ In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the upload
 
 For details see [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#blink-test).
 
-## Step 1: Laser-cutting and assembling the IoT Gauge
+## Part 1: Laser-cutting and assembling the IoT Gauge
 
 ### Use a laser to cut the design from 4mm plywood
 The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) are available on Thingiverse.
@@ -81,18 +81,18 @@ Make sure the nice side of the wood faces to the front.
 
 <img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
-## Step 2: Uploading the IoT Gauge Web service Arduino code
+## Part 2: Uploading the IoT Gauge Web service Arduino code
 
 ###
 
-## Step 3: Testing the Arduino Web service with Curl
+## Part 3: Testing the Arduino Web service with Curl
 
 ###
 
-## Step 4: Connecting the IoT Gauge to the IFTTT Maker channel
+## Part 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
 ###
 
-## Step 5: Creating a IFTTT Do button for the IoT Gauge
+## Part 5: Creating a IFTTT Do button for the IoT Gauge
 
 ###
