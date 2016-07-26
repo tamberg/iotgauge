@@ -61,9 +61,9 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 
 ### Assemble the IoT Gauge
 
-<img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
-
 <img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
+
+<img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
 
 ### Connect the jumper wires
 
