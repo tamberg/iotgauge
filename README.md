@@ -69,6 +69,7 @@ In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the upload
 ## Part 1: Laser-cutting and assembling the IoT Gauge
 
 ### Use a laser to cut the design from 4mm plywood
+
 The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) are available on Thingiverse.
 
 <img src="http://cdn.instructables.com/FK5/FGHY/ICBS2RIP/FK5FGHYICBS2RIP.MEDIUM.jpg" width="512" />
@@ -95,7 +96,11 @@ Now add the the disks and finally the clock hand. Make sure the nice side of the
 
 ## Part 2: Uploading the IoT Gauge Web service code
 
+Controlling the IoT Gauge is quite simple. A Web service (or REST API) is listening for incoming requests and setting the servo position accordingly.
+
 ### Install the ESP8266 Yaler library
+
+To give IFTTT access to the IoT Gauge, our Arduino REST API needs to be accessible from the Web. Experts could add an exception to their firewall or router. But as this can be quite a hassle, we'll use a relay service.
 
 Sign up for a free trial account at [Yaler.net](https://yaler.net/) to get a RELAY_DOMAIN (required below).
 
@@ -111,9 +116,13 @@ Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/
 
 (Or copy & paste the source code into a new Arduino sketch, then click the uplocad button.)
 
-### Set RELAY_DOMAIN, WIFI_SSID and WIFI_PASS
+### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD
 
+Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi network.
 
+(Note that LOCAL_NETWORK_* has to be adapted whenever the IoT Gauge is moved to another local network.)
+
+Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the relay domain starts with gsiot-...)
 
 ### Open the Arduino IDE serial monitor
 
