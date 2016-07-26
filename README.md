@@ -75,7 +75,7 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 
 ### Assemble the IoT Gauge
 
-Stick the base plate into the big, then the small face plate, then add the servo.
+Stick the base plate into the big face plate, then into the small one, then add the servo.
 
 <img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
 
