@@ -65,11 +65,11 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 
 ### Connect the jumper wires
 
-<img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
-
 * Black servo wire to GND
 * Red servo wire to USB
 * Yellow servo wire to pin 2
+
+<img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
 ## Step 2: Uploading the IoT Gauge Web service Arduino code
 
