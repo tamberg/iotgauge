@@ -83,6 +83,8 @@ Now add the the disks and finally the clock hand. Make sure the nice side of the
 
 <img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
 
+(Note that you don't have to write anything on the disks yet.)
+
 ### Connect the jumper wires
 
 * Black servo wire to GND
@@ -95,6 +97,8 @@ Now add the the disks and finally the clock hand. Make sure the nice side of the
 
 ### Install the ESP8266 Yaler library
 
+Sign up for a free trial account at [Yaler.net](https://yaler.net/) to get a RELAY_DOMAIN (required below).
+
 Download the [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library
 
 On Mac OS X, extract the ZIP to `~/Documents/Arduino/libraries/YalerESP8266WiFiServer`
@@ -106,6 +110,10 @@ On Windows extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\Ya
 Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE, then click the upload button.
 
 (Or copy & paste the source code into a new Arduino sketch, then click the uplocad button.)
+
+### Set RELAY_DOMAIN, WIFI_SSID and WIFI_PASS
+
+
 
 ### Open the Arduino IDE serial monitor
 
