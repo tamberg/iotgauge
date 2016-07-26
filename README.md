@@ -164,15 +164,29 @@ IFTT lets you create recipes connecting a trigger to an action.
 * Enter a network name or location
 * When choosing action channel, search for the Maker channel and select it
 * Then select the action Make a web request
-* Enter the URL http://RELAY_DOMAIN.try.yaler.io/mailbox/pos/3
-(Replace RELAY_DOMAIN with the relay domain you used before)
-* For the Method select POST
+* Enter the URL `http://RELAY_DOMAIN.try.yaler.io/servo?pos=3` (Replace RELAY_DOMAIN as before)
+* For the Method select PUT
 * For the Content Type select application/x-www-form-urlencoded
 * The Body can be left empty
 
 <img src="http://cdn.instructables.com/FFB/CSXJ/ICEMSWZM/FFBCSXJICEMSWZM.MEDIUM.jpg" width="512" />
 
 <img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="253" />  <img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="253" />
+
+### Adding an existing IFTTT recipe
+
+IFTTT allows users to publish recipes. Here are two recipes to control your IoT Gauge:
+
+* Open the "IoT Gauge position from Android WiFi location" recipe here
+* Or the "IoT Gauge position from iOS location" recipe here
+* Or search* for "IoT Gauge" recipes, https://ifttt.com/recipes/search?q=IoT+Gauge
+* To add an instance of the recipe to your recipes click the Add button
+* Enter a WiFi network name or location (or whatever the recipe asks for)
+* Replace RELAY_DOMAIN in the URL with the relay domain you used before
+* Adapt the pos parameter in the URL from 1 to 5 to match your location
+* Add another instance of the recipe for each location
+
+(It seems that IFTTT does not yet add Maker channel recipes to the search results.)
 
 ## Part 5: Creating a IFTTT Do button for the IoT Gauge
 
