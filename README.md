@@ -16,7 +16,7 @@ Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Thin
 * 3 M/M jumper wires ([Adafruit](https://www.adafruit.com/products/1956) or [Playzone](http://www.play-zone.ch/de/jumperkabel-10-stk-m-m-verbindungskabel-10cm.html))
 * 1 USB cable A/MicroB ([Adafruit](https://www.adafruit.com/products/592) or [Playzone](http://www.play-zone.ch/de/hispeed-usb-kabel-2-0-a-micro-5-pin-150cm-schwarz.html))
 * 1 USB adapter ([Adafruit](https://www.adafruit.com/products/501) or [Playzone](http://www.play-zone.ch/de/netzteil-ac-dc-adapter-5v-dc-1000ma-usb.html))
-* A3 sheet of 4mm plywood
+* 1 A3 sheet of 4mm plywood
 * 2 small zip ties
 
 ### Tools
@@ -57,7 +57,7 @@ In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the upload
 ### Use a laser to cut the design from 4mm plywood
 The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) are available on Thingiverse.
 
-<img src="http://cdn.instructables.com/FK5/FGHY/ICBS2RIP/FK5FGHYICBS2RIP.MEDIUM.jpg"/>
+<img src="http://cdn.instructables.com/FK5/FGHY/ICBS2RIP/FK5FGHYICBS2RIP.MEDIUM.jpg" width="512" />
 
 ### Assemble the IoT Gauge
 
