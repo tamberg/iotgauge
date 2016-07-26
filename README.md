@@ -10,12 +10,14 @@ Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Thin
 
 ## Material
 
-* https://www.adafruit.com/products/155 (Servo)
-* http://www.play-zone.ch/de/adafruit-feather-huzzah-with-esp8266-wifi.html
-* http://www.play-zone.ch/de/hispeed-usb-kabel-2-0-a-micro-5-pin-150cm-schwarz.html
-* http://www.play-zone.ch/de/elektronik-kit-zubehoer/breadboards/lochraster-steckplatine-breadboard-170.html
-* http://www.play-zone.ch/de/jumperkabel-10-stk-m-m-verbindungskabel-10cm.html (3 jumper wires)
-* http://www.play-zone.ch/de/netzteil-ac-dc-adapter-5v-dc-1000ma-usb.html
+* 1 Servo ([Adafruit](https://www.adafruit.com/products/155))
+* 1 Adafruit Feather HUZZAH ([Adafruit](https://www.adafruit.com/products/2821) or [Playzone](http://www.play-zone.ch/de/adafruit-feather-huzzah-with-esp8266-wifi.html))
+* 1 mini bread board ([Adafruit](https://www.adafruit.com/products/65) or [Playzone](http://www.play-zone.ch/de/elektronik-kit-zubehoer/breadboards/lochraster-steckplatine-breadboard-170.html))
+* 3 M/M jumper wires ([Adafruit](https://www.adafruit.com/products/1956) or [Playzone](http://www.play-zone.ch/de/jumperkabel-10-stk-m-m-verbindungskabel-10cm.html))
+* 1 USB cable A/MicroB ([Adafruit](https://www.adafruit.com/products/592) or [Playzone](http://www.play-zone.ch/de/hispeed-usb-kabel-2-0-a-micro-5-pin-150cm-schwarz.html))
+* 1 USB adapter ([Adafruit](https://www.adafruit.com/products/501) or [Playzone](http://www.play-zone.ch/de/netzteil-ac-dc-adapter-5v-dc-1000ma-usb.html))
+* A3 sheet of 4mm plywood
+* 2 small zip ties
 
 ## Tools
 
@@ -25,7 +27,7 @@ Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Thin
 
 ## Downloads
 
-All downloads are listed here for convenience, we will use them later on
+All downloads are listed here for convenience, we will use them later on.
 
 * IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) on Thingiverse
 * [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx) for Adafruit Feather HUZZAH / CP2104
@@ -34,12 +36,12 @@ All downloads are listed here for convenience, we will use them later on
 * [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) source code for Adafruit Feather HUZZAH / ESP8266
 
 ## Installing the Arduino IDE
-Install [Arduino IDE](https://www.arduino.cc/en/Main/Software) from Arduino.cc, if you don't have it yet
+Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) from Arduino.cc, if you don't have it yet.
 
 ## Installing the CP2104 USB driver
-Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx) for Adafruit Feather HUZZAH / CP2104
+Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx) for Adafruit Feather HUZZAH / CP2104.
 
 ## Adding the ESP8266 board to the Arduino IDE
-Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package
+Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package.
 
 ## 
