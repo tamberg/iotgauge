@@ -110,11 +110,11 @@ On Windows, extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\Y
 
 Then, close and reopen the Arduino IDE to load the library.
 
-### Upload the IoT Gauge Web service source code
+### Get the IoT Gauge Web service source code
 
-Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE, then click the upload button.
+Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE.
 
-(Or copy & paste the source code into a new Arduino sketch, then click the upload button.)
+(Or copy & paste the source code into a new Arduino sketch.)
 
 ### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and _PASSWORD
 
@@ -123,6 +123,10 @@ Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi n
 (Note that LOCAL_NETWORK_* has to be adapted whenever the IoT Gauge is moved to another local network.)
 
 Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
+
+### Upload the IoT Gauge Web service source code
+
+Click the upload icon to store the code to the Adafruit Feather HUZZAH.
 
 ### Open the Arduino IDE serial monitor
 
