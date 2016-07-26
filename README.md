@@ -146,7 +146,7 @@ If necessary, download and install Curl from https://curl.haxx.se/download.html
 
 ### Set the servo position
 
-Type `$ curl -vX POST http://RELAY_DOMAIN.try.yaler.io/pos/3` to set the servo to position 3 (center).
+Type `$ curl -vX PUT http://RELAY_DOMAIN.try.yaler.io/servo?pos=3` to set the servo to position 3 (center).
 
 Make sure to replace _RELAY_DOMAIN_ with the same relay domain you used above. The output should say _200 OK_.
 
