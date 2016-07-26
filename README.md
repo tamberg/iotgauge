@@ -103,9 +103,13 @@ On Windows extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\Ya
 
 ### Upload the IoT Gauge Web service source code
 
-Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE (or copy & paste the content into a new Arduino sketch).
+Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE, then click the upload button.
+
+(Or copy & paste the source code into a new Arduino sketch, then click the uplocad button.)
 
 ### Open the Arduino IDE serial monitor
+
+Make sure the _baud_ rate is set to _115200_, not _9600_ as in the picture.
 
 <img src="https://c1.staticflickr.com/9/8724/28281929600_fbd9081a82_z.jpg" />
 
