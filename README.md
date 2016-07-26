@@ -136,7 +136,17 @@ Make sure the _baud_ rate is set to _115200_, not _9600_ as in the picture.
 
 ## Part 3: Testing the IoT Gauge Web service with Curl
 
-###
+### Maker sure Curl is installed
+
+Type `$ curl --version` to make sure Curl is installed.
+
+If necessary, download and install Curl from https://curl.haxx.se/download.html
+
+### Set the servo position
+
+Type `$ curl -vX POST http://RELAY_DOMAIN.try.yaler.io/pos/3` to set the servo to position 3 (use your relay domain).
+
+Try any position between 1 and 5. Make sure the servo moved the hand to the desired position (adjust the hand if necessary).
 
 ## Part 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
