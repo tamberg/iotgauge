@@ -65,7 +65,7 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 
 ### Connect the jumper wires
 
-<img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70_n.jpg">
+<img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
 * Black servo wire to GND
 * Red servo wire to USB
