@@ -1,6 +1,6 @@
 # IoT Gauge with Adafruit Feather HUZZAH
 
-Based on http://www.instructables.com/id/IoT-Gauge-with-Arduino-Yaler-IFTTT by [tamberg.org](http://www.tamberg.org/), licensed [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/)
+Based on http://www.instructables.com/id/IoT-Gauge-with-Arduino-Yaler-IFTTT by [tamberg.org](http://www.tamberg.org/), licensed [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/).
 
 <img src="http://cdn.instructables.com/FMO/J4IT/ICEMXRME/FMOJ4ITICEMXRME.MEDIUM.jpg"/>
 
@@ -60,6 +60,8 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 <img src="http://cdn.instructables.com/FK5/FGHY/ICBS2RIP/FK5FGHYICBS2RIP.MEDIUM.jpg" width="512" />
 
 ### Assemble the IoT Gauge
+
+<img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
 
 <img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
 
