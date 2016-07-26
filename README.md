@@ -118,11 +118,11 @@ Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/
 
 ### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and _PASSWORD
 
-Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi network.
+Set _LOCAL_NETWORK_SSID_ and _LOCAL_NETWORK_PASSWORD_ according to the local Wi-Fi network.
 
-(Note that LOCAL_NETWORK_* has to be adapted whenever the IoT Gauge is moved to another local network.)
+(Note that _LOCAL_NETWORK_*_ has to be adapted whenever the IoT Gauge is moved to another local network.)
 
-Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
+Then replace _RELAY_DOMAIN_ with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
 
 ### Upload the IoT Gauge Web service source code
 
@@ -136,7 +136,9 @@ Make sure the _baud_ rate is set to _115200_, not _9600_ as in the picture.
 
 ## Part 3: Testing the IoT Gauge Web service with Curl
 
-### Maker sure Curl is installed
+### Make sure the Curl tool is installed
+
+Open a Terminal or command line on your computer.
 
 Type `$ curl --version` to make sure Curl is installed.
 
@@ -144,7 +146,9 @@ If necessary, download and install Curl from https://curl.haxx.se/download.html
 
 ### Set the servo position
 
-Type `$ curl -vX POST http://RELAY_DOMAIN.try.yaler.io/pos/3` to set the servo to position 3 (use your relay domain).
+Type `$ curl -vX POST http://RELAY_DOMAIN.try.yaler.io/pos/3` to set the servo to position 3 (center).
+
+Make sure to replace _RELAY_DOMAIN_ with the same relay domain you used above. The output should say _200 OK_.
 
 Try any position between 1 and 5. Make sure the servo moved to the desired position (adjust the hand if necessary).
 
