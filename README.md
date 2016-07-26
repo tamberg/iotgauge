@@ -1,6 +1,6 @@
 # IoT Gauge with Adafruit Feather HUZZAH
 
-Based on http://www.instructables.com/id/IoT-Gauge-with-Arduino-Yaler-IFTTT by [tamberg.org](http://www.tamberg.org/), licensed [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/).
+Based on http://www.instructables.com/id/IoT-Gauge-with-Arduino-Yaler-IFTTT by [tamberg.org](http://www.tamberg.org/), licensed [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/)
 
 <img src="http://cdn.instructables.com/FMO/J4IT/ICEMXRME/FMOJ4ITICEMXRME.MEDIUM.jpg"/>
 
@@ -79,7 +79,7 @@ Stick the base plate into the big face plate, then into the small one, then add 
 
 <img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
 
-Now add the the disks and finally the hand. Make sure the nice side of the wood faces to the front.
+Now add the the disks and finally the clock hand. Make sure the nice side of the wood faces to the front.
 
 <img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
 
@@ -93,7 +93,21 @@ Now add the the disks and finally the hand. Make sure the nice side of the wood 
 
 ## Part 2: Uploading the IoT Gauge Web service code
 
-###
+### Install the ESP8266 Yaler library
+
+Download the [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library
+
+On Mac OS X, extract the ZIP to `~/Documents/Arduino/libraries/YalerESP8266WiFiServer`
+
+On Windows extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\YalerESP8266WiFiServer`
+
+### Upload the IoT Gauge Web service source code
+
+Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) and open it in the Arduino IDE (or copy & paste the content into a new Arduino sketch).
+
+### Open the Arduino IDE serial monitor
+
+<img src="https://c1.staticflickr.com/9/8724/28281929600_fbd9081a82_z.jpg" />
 
 ## Part 3: Testing the IoT Gauge Web service with Curl
 
