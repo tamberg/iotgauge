@@ -48,7 +48,7 @@ Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbrid
 ### Add the ESP8266 board to the Arduino IDE
 Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package.
 
-### Select the ESP8266 and USB port
+### Select the ESP8266 and the current USB port
 
 Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#setup-esp8266-support).
 
