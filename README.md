@@ -122,7 +122,7 @@ Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi n
 
 (Note that LOCAL_NETWORK_* has to be adapted whenever the IoT Gauge is moved to another local network.)
 
-Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the relay domain starts with gsiot-...)
+Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
 
 ### Open the Arduino IDE serial monitor
 
