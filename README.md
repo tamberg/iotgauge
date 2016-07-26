@@ -48,11 +48,15 @@ Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbrid
 ### Add the ESP8266 board to the Arduino IDE
 Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package.
 
-(Or add http://arduino.esp8266.com/stable/package_esp8266com_index.json to _Additional Board Manager URLs_.)
+(Or add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` to _Additional Board Manager URLs_.)
 
 ### Select the ESP8266 and the current USB port
 
-In the Arduino IDE, select _Tools > Board > Adafruit HUZZAH ESP8266_, then select _Tools > CPU Frequency > 80 MHz_.
+In the Arduino IDE, select _Tools > Board > Adafruit HUZZAH ESP8266_.
+
+Then select _Tools > CPU Frequency > 80 MHz_.
+
+Then select _Port > ..._ (e.g. _COM3_ on Windows or _/dev/tty.usb-..._ on Mac OSX)
 
 (Or follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#setup-esp8266-support) for detailed instructions.)
 
