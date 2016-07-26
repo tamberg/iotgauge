@@ -96,11 +96,9 @@ Now add the the disks and finally the clock hand. Make sure the nice side of the
 
 ## Part 2: Uploading the IoT Gauge Web service code
 
-Controlling the IoT Gauge is quite simple. A Web service (or REST API) is listening for incoming requests and setting the servo position accordingly.
+Controlling the IoT Gauge is quite simple. A Web service (or REST API) is listening for incoming requests and setting the servo position accordingly. To give IFTTT access to the IoT Gauge, our Arduino REST API needs to be accessible from the Web. Experts could add an exception to their firewall or router. But as this can be quite a hassle, we'll use the Yaler relay service.
 
 ### Install the ESP8266 Yaler library
-
-To give IFTTT access to the IoT Gauge, our Arduino REST API needs to be accessible from the Web. Experts could add an exception to their firewall or router. But as this can be quite a hassle, we'll use a relay service.
 
 Sign up for a free trial account at [Yaler.net](https://yaler.net/) to get a RELAY_DOMAIN (required below).
 
