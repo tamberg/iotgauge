@@ -154,7 +154,21 @@ Try any position between 1 and 5. Make sure the servo moved to the desired posit
 
 ## Part 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
-###
+### Creating a new IFTTT recipe (or skip to add an existing recipe)
+
+IFTT lets you create recipes connecting a trigger to an action.
+
+* Visit https://ifttt.com/myrecipes/personal/new (sign up if you haven't yet)
+* To choose a trigger channel, search for e.g. "Android Device" or "iOS Location" and select the channel icon
+* Then choose a trigger, e.g. Connects to a specific WiFi network (for Android)
+* Enter a network name or location
+* When choosing action channel, search for the Maker channel and select it
+* Then select the action Make a web request
+* Enter the URL http://RELAY_DOMAIN.try.yaler.io/mailbox/pos/3
+(Replace RELAY_DOMAIN with the relay domain you used before)
+* For the Method select POST
+* For the Content Type select application/x-www-form-urlencoded
+* The Body can be left empty
 
 <img src="http://cdn.instructables.com/FFB/CSXJ/ICEMSWZM/FFBCSXJICEMSWZM.MEDIUM.jpg" width="512" />
 
