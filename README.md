@@ -8,7 +8,7 @@ How to build a Web-enabled IoT Gauge with a REST API, and connect it to the [IFT
 
 Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Things classic, the IoT Gauge shows the current location of its owner. A bit like the Weasley Clock in Harry Potter.
 
-## Material
+### Material
 
 * 1 Servo ([Adafruit](https://www.adafruit.com/products/155))
 * 1 Adafruit Feather HUZZAH ([Adafruit](https://www.adafruit.com/products/2821) or [Playzone](http://www.play-zone.ch/de/adafruit-feather-huzzah-with-esp8266-wifi.html))
@@ -19,13 +19,13 @@ Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Thin
 * A3 sheet of 4mm plywood
 * 2 small zip ties
 
-## Tools
+### Tools
 
 * Laser-cutter
 * Hot-glue or wood glue
 * Android or iOS smartphone
 
-## Downloads
+### Downloads
 
 All downloads are listed here for convenience, we will use them later on.
 
@@ -35,39 +35,39 @@ All downloads are listed here for convenience, we will use them later on.
 * [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library for remote access
 * [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) source code for Adafruit Feather HUZZAH / ESP8266
 
-# Step 0: Getting started
+## Step 0: Getting started
 
 How to set up the Arduino development environment and run your first program on the Adafruit Feather HUZZAH.
 
-## Install the Arduino IDE
+### Install the Arduino IDE
 Install the [Arduino.cc IDE](https://www.arduino.cc/en/Main/Software) v1.6.4 or newer, if you don't have it yet.
 
-## Install the CP2104 USB driver
+### Install the CP2104 USB driver
 Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx) for Adafruit Feather HUZZAH / CP2104.
 
-## Add the ESP8266 board to the Arduino IDE
+### Add the ESP8266 board to the Arduino IDE
 Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package.
 
-## Upload the Blink example to the Adafruit Feather HUZZAH
+### Upload the Blink example to the Adafruit Feather HUZZAH
 
 In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the uploiad icon. An LED should now blink.
 
-### Step 1: Laser-cutting and assembling the IoT Gauge
+## Step 1: Laser-cutting and assembling the IoT Gauge
 
-## 
+### 
 
-### Step 2: Uploading the IoT Gauge Web service Arduino code
+## Step 2: Uploading the IoT Gauge Web service Arduino code
 
-##
+###
 
-### Step 3: Testing the Arduino Web service with Curl
+## Step 3: Testing the Arduino Web service with Curl
 
-##
+###
 
-### Step 4: Connecting the IoT Gauge to the IFTTT Maker channel
+## Step 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
-##
+###
 
-### Step 5: Creating a IFTTT Do button for the IoT Gauge
+## Step 5: Creating a IFTTT Do button for the IoT Gauge
 
-##
+###
