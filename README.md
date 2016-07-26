@@ -1,1 +1,29 @@
-# iotgauge
+# IoT Gauge with Adafruit Feather HUZZAH
+
+Based on http://www.instructables.com/id/IoT-Gauge-with-Arduino-Yaler-IFTTT/
+
+<img src="http://cdn.instructables.com/FMO/J4IT/ICEMXRME/FMOJ4ITICEMXRME.MEDIUM.jpg"/>
+
+How to build a Web-enabled, Arduino-based IoT Gauge with a REST API, and connect it to the IFTTT.com mash-up platform, via the Yaler.net relay service.
+
+Inspired by [WhereDial](http://blog.mapme.at/wheredial/), a DIY Internet of Things classic, the IoT Gauge shows the current location of its owner. A bit like the Weasley Clock in Harry Potter.
+
+## Material
+
+* https://www.adafruit.com/products/155 (Servo)
+* http://www.play-zone.ch/de/adafruit-feather-huzzah-with-esp8266-wifi.html
+* http://www.play-zone.ch/de/hispeed-usb-kabel-2-0-a-micro-5-pin-150cm-schwarz.html
+* http://www.play-zone.ch/de/elektronik-kit-zubehoer/breadboards/lochraster-steckplatine-breadboard-170.html
+* http://www.play-zone.ch/de/jumperkabel-10-stk-m-m-verbindungskabel-10cm.html (3 jumper wires)
+* http://www.play-zone.ch/de/netzteil-ac-dc-adapter-5v-dc-1000ma-usb.html
+
+## Tools
+
+* Hot-glue or wood glue
+* Android or iOS smartphone
+
+## Downloads
+
+* IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) on Thingiverse
+* [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library for remote access
+* [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) source code for Adafruit Feather HUZZAH / ESP8266
