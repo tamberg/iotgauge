@@ -148,13 +148,19 @@ If necessary, download and install Curl from https://curl.haxx.se/download.html
 
 Type `$ curl -vX PUT http://RELAY_DOMAIN.try.yaler.io/servo?pos=3` to set the servo to position 3 (center).
 
-Make sure to replace _RELAY_DOMAIN_ with the same relay domain you used above. The output should say _200 OK_.
+Make sure to replace RELAY_DOMAIN with the same relay domain you used above. The output should say _200 OK_.
 
 Try any position between 1 and 5. Make sure the servo moved to the desired position (adjust the hand if necessary).
 
 ## Part 4: Connecting the IoT Gauge to the IFTTT Maker channel
 
 ###
+
+<img src="http://cdn.instructables.com/FFB/CSXJ/ICEMSWZM/FFBCSXJICEMSWZM.MEDIUM.jpg" />
+
+<img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" />
+
+<img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" />
 
 ## Part 5: Creating a IFTTT Do button for the IoT Gauge
 
