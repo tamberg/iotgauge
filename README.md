@@ -50,11 +50,18 @@ Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzz
 
 ### Upload the Blink example to the Adafruit Feather HUZZAH
 
-In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the uploiad icon. An LED should now blink.
+In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the upload icon. An LED should now blink.
 
 ## Step 1: Laser-cutting and assembling the IoT Gauge
 
-### 
+### Use a laser to cut the design from 4mm plywood
+The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#files) are available on Thingiverse.
+
+<img src="http://cdn.instructables.com/FK5/FGHY/ICBS2RIP/FK5FGHYICBS2RIP.MEDIUM.jpg"/>
+
+### Assemble the IoT Gauge
+
+<img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg"/>
 
 ## Step 2: Uploading the IoT Gauge Web service Arduino code
 
