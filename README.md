@@ -89,11 +89,11 @@ Make sure the nice side of the wood faces to the front.
 
 <img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
-## Part 2: Uploading the IoT Gauge Web service Arduino code
+## Part 2: Uploading the IoT Gauge Web service code
 
 ###
 
-## Part 3: Testing the Arduino Web service with Curl
+## Part 3: Testing the IoT Gauge Web service with Curl
 
 ###
 
