@@ -118,11 +118,11 @@ Right click and download [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/
 
 ### Set RELAY_DOMAIN, LOCAL_NETWORK_SSID and _PASSWORD
 
-Set _LOCAL_NETWORK_SSID_ and _LOCAL_NETWORK_PASSWORD_ according to the local Wi-Fi network.
+Set LOCAL_NETWORK_SSID and LOCAL_NETWORK_PASSWORD according to the local Wi-Fi network.
 
-(Note that _LOCAL_NETWORK_*_ has to be adapted whenever the IoT Gauge is moved to another local network.)
+(Note that LOCAL_NETWORK_* has to be adapted whenever the IoT Gauge is moved to another local network.)
 
-Then replace _RELAY_DOMAIN_ with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
+Then replace RELAY_DOMAIN with your relay domain from https://yaler.net/account (the string starting with gsiot-...)
 
 ### Upload the IoT Gauge Web service source code
 
