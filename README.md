@@ -158,7 +158,7 @@ Try any position between 1 and 5. Make sure the servo moved to the desired posit
 
 <img src="http://cdn.instructables.com/FFB/CSXJ/ICEMSWZM/FFBCSXJICEMSWZM.MEDIUM.jpg" width="512" />
 
-<img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="320" /><img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="320" />
+<img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="254" /> <img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="254" />
 
 ## Part 5: Creating a IFTTT Do button for the IoT Gauge
 
