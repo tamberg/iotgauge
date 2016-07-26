@@ -35,13 +35,39 @@ All downloads are listed here for convenience, we will use them later on.
 * [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontrib/downloads/YalerESP8266WiFiServer.zip) library for remote access
 * [IoTGaugeWebService.ino](https://bitbucket.org/tamberg/iotworkshop/raw/tip/ESP8266/IoTGaugeWebService/IoTGaugeWebService.ino) source code for Adafruit Feather HUZZAH / ESP8266
 
-## Installing the Arduino IDE
-Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) from Arduino.cc, if you don't have it yet.
+# Step 0: Getting started
 
-## Installing the CP2104 USB driver
+How to set up the Arduino development environment and run your first program on the Adafruit Feather HUZZAH.
+
+## Install the Arduino IDE
+Install the [Arduino.cc IDE](https://www.arduino.cc/en/Main/Software) v1.6.4 or newer, if you don't have it yet.
+
+## Install the CP2104 USB driver
 Install the [USB driver](https://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx) for Adafruit Feather HUZZAH / CP2104.
 
-## Adding the ESP8266 board to the Arduino IDE
+## Add the ESP8266 board to the Arduino IDE
 Follow [this Adafruit tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide#install-the-esp8266-board-package) to add the Adafruit Feather HUZZAH / ESP8266 board package.
 
+## Upload the Blink example to the Adafruit Feather HUZZAH
+
+In the Arduino IDE, open _File > Examples > Basic > Blink_ then click the uploiad icon. An LED should now blink.
+
+### Step 1: Laser-cutting and assembling the IoT Gauge
+
 ## 
+
+### Step 2: Uploading the IoT Gauge Web service Arduino code
+
+##
+
+### Step 3: Testing the Arduino Web service with Curl
+
+##
+
+### Step 4: Connecting the IoT Gauge to the IFTTT Maker channel
+
+##
+
+### Step 5: Creating a IFTTT Do button for the IoT Gauge
+
+##
