@@ -76,11 +76,15 @@ The IoT Gauge physical [design files](https://www.thingiverse.com/thing:453788/#
 
 ### Assemble the IoT Gauge
 
-Stick the base plate into the big face plate, then into the small one, then add the servo.
+Stick the base plate into the big face plate, then into the small one.
 
-<img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
+Then, add the servo. Make sure the servo axle is centered.
 
-Now add the the disks and finally the clock hand. Make sure the nice side of the wood faces to the front.
+Then, add the the disks and finally the clock hand.
+
+<img src="https://c1.staticflickr.com/9/8627/28505434551_1fee6161e4_z.jpg" width="512" />
+
+Make sure the nice side of the wood faces to the front.
 
 <img src="https://c2.staticflickr.com/8/7192/27666972152_4c62c96afc_z.jpg" width="512" />
 
@@ -93,6 +97,12 @@ Now add the the disks and finally the clock hand. Make sure the nice side of the
 * Yellow servo wire to pin 2
 
 <img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
+
+### Mount the breadboard to the base plate
+
+Use zip wire or just stick the breadboard to the base plate.
+
+<img src="https://c2.staticflickr.com/8/7441/27666978202_9532f03635_z.jpg" width="512" />
 
 ## Part 2: Uploading the IoT Gauge Web service code
 
