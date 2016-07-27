@@ -156,7 +156,7 @@ Try any position between 1 and 5. Make sure the servo moved to the desired posit
 
 ### Creating a new IFTTT recipe (or skip to add an existing recipe)
 
-IFTT lets you create recipes connecting a trigger to an action.
+IFTTT lets you create recipes connecting a trigger to an action.
 
 * Visit https://ifttt.com/myrecipes/personal/new (sign up if you haven't yet)
 * To choose a trigger channel, search for e.g. "Android Device" or "iOS Location" and select the channel icon
@@ -165,13 +165,11 @@ IFTT lets you create recipes connecting a trigger to an action.
 * When choosing action channel, search for the Maker channel and select it
 * Then select the action Make a web request
 * Enter the URL `http://RELAY_DOMAIN.try.yaler.io/servo?pos=3` (Replace RELAY_DOMAIN as before)
-* For the Method select PUT
-* For the Content Type select application/x-www-form-urlencoded
+* For the Method select _PUT_
+* For the Content Type select _application/x-www-form-urlencoded_
 * The Body can be left empty
 
 <img src="http://cdn.instructables.com/FFB/CSXJ/ICEMSWZM/FFBCSXJICEMSWZM.MEDIUM.jpg" width="512" />
-
-<img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="253" />  <img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="253" />
 
 ### Adding an existing IFTTT recipe
 
@@ -185,7 +183,7 @@ IFTTT allows users to publish recipes. Here are two recipes to control your IoT 
 * Adapt the pos parameter in the URL from 1 to 5 to match your location
 * Add another instance of the recipe for each location
 
-(It seems that IFTTT does not yet add Maker channel recipes to the search results.)
+<img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="253" />  <img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="253" />
 
 ## Part 5: Creating a IFTTT Do button for the IoT Gauge
 
