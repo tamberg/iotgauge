@@ -179,8 +179,7 @@ IFTTT allows users to publish recipes. Here are two recipes to control your IoT 
 
 * Open the "IoT Gauge position from Android WiFi location" <a href="https://ifttt.com/recipes/309367-iot-gauge-position-from-wifi-location">recipe here</a>
 * Or the "IoT Gauge position from iOS location" <a href="https://ifttt.com/recipes/309375-iot-gauge-position-from-ios-location">recipe here</a>
-* Or search* for "IoT Gauge" recipes, https://ifttt.com/recipes/search?q=IoT+Gauge
-* To add an instance of the recipe to your recipes click the Add button
+* To add an instance of the recipe to your recipes click the _Add_ button
 * Enter a WiFi network name or location (or whatever the recipe asks for)
 * Replace RELAY_DOMAIN in the URL with the relay domain you used before
 * Adapt the pos parameter in the URL from 1 to 5 to match your location
