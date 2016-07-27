@@ -177,8 +177,8 @@ IFTT lets you create recipes connecting a trigger to an action.
 
 IFTTT allows users to publish recipes. Here are two recipes to control your IoT Gauge:
 
-* Open the "IoT Gauge position from Android WiFi location" recipe here
-* Or the "IoT Gauge position from iOS location" recipe here
+* Open the "IoT Gauge position from Android WiFi location" <a href="https://ifttt.com/recipes/309367-iot-gauge-position-from-wifi-location">recipe here</a>
+* Or the "IoT Gauge position from iOS location" <a href="https://ifttt.com/recipes/309375-iot-gauge-position-from-ios-location">recipe here</a>
 * Or search* for "IoT Gauge" recipes, https://ifttt.com/recipes/search?q=IoT+Gauge
 * To add an instance of the recipe to your recipes click the Add button
 * Enter a WiFi network name or location (or whatever the recipe asks for)
