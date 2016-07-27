@@ -185,6 +185,23 @@ IFTTT allows users to publish recipes. Here are two recipes to control your IoT 
 
 <img src="http://cdn.instructables.com/FXL/RNFV/ICEMY3CB/FXLRNFVICEMY3CB.MEDIUM.jpg" width="253" />  <img src="http://cdn.instructables.com/FRR/RC1Y/ICEMY39P/FRRRC1YICEMY39P.MEDIUM.jpg" width="253" />
 
-## Part 5: Creating a IFTTT Do button for the IoT Gauge
+## Part 5: Creating a IFTTT Do button for the IoT Gauge (optional)
 
-###
+IFTTT also provides Do apps for iOS and Android. The app allows you to manually trigger actions. This can be great for testing your other IFTTT recipes. Unlike normal IFTTT recipes, the Do app recipes cannot (yet?) be shared or made public. So you'll have to create them from scratch.
+
+### Creating a new IFTTT Do button
+
+* Get the Do Button Android or iPhone app at https://ifttt.com/products/do/button
+* Work through the rather annoying but mandatory (?) intro screens
+* Use the small icon on the lower right to bring up the list of recipes
+* Tap the + sign, then tap Channels and search for the Maker channel
+* Then select the action Make a web request
+* Enter the URL http://RELAY_DOMAIN.try.yaler.io/mailbox/pos/3
+(Replace RELAY_DOMAIN as before)
+* For the Method select _POST_
+* For the Content Type select _application/x-www-form-urlencoded_
+* The Body can be left empty
+* Tap Add to create the button
+* Once created, the recipe can be edited online at https://ifttt.com/myrecipes/do
+
+<img src="http://cdn.instructables.com/FZ2/D7OS/ICEMT9V9/FZ2D7OSICEMT9V9.MEDIUM.jpg" />
