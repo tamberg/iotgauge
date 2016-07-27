@@ -187,7 +187,7 @@ IFTTT allows users to publish recipes. Here are two recipes to control your IoT 
 
 ## Part 5: Creating a IFTTT Do button for the IoT Gauge (optional)
 
-IFTTT also provides Do apps for iOS and Android. The app allows you to manually trigger actions. This can be great for testing your other IFTTT recipes. Unlike normal IFTTT recipes, the Do app recipes cannot (yet?) be shared or made public. So you'll have to create them from scratch.
+IFTTT also provides Do apps for iOS and Android. The app allows you to manually trigger actions. This can be great for testing your other IFTTT recipes. Unlike normal IFTTT recipes, the Do app recipes cannot be shared or made public. So you'll have to create them from scratch.
 
 ### Creating a new IFTTT Do button
 
