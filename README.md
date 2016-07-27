@@ -214,4 +214,4 @@ IFTTT also provides Do apps for iOS and Android. The app allows you to manually 
 * Tap Add to create the button
 * Once created, the recipe can be edited online at https://ifttt.com/myrecipes/do
 
-<img src="http://cdn.instructables.com/FZ2/D7OS/ICEMT9V9/FZ2D7OSICEMT9V9.MEDIUM.jpg" />
+<img src="http://cdn.instructables.com/FZ2/D7OS/ICEMT9V9/FZ2D7OSICEMT9V9.MEDIUM.jpg" width="512" />
