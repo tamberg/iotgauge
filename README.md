@@ -96,7 +96,7 @@ Make sure the nice side of the wood faces to the front.
 
 * Black (or brown) servo wire to GND
 * Red servo wire to USB
-* Yellow servo wire to pin 2
+* Yellow (or orange) servo wire to pin 2
 
 <img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
