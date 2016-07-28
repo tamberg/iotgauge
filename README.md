@@ -221,3 +221,9 @@ IFTTT also provides Do apps for iOS and Android. The app allows you to manually 
 * Once created, the recipe can be edited online at https://ifttt.com/myrecipes/do
 
 <img src="http://cdn.instructables.com/FZ2/D7OS/ICEMT9V9/FZ2D7OSICEMT9V9.MEDIUM.jpg" width="512" />
+
+## Misc
+
+## Yahoo wheather codes used in IFTTT Weather trigger
+
+https://developer.yahoo.com/weather/documentation.html#codes
