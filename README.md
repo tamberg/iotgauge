@@ -94,7 +94,7 @@ Make sure the nice side of the wood faces to the front.
 
 ### Connect the jumper wires
 
-* Black servo wire to GND
+* Black (or brown) servo wire to GND
 * Red servo wire to USB
 * Yellow servo wire to pin 2
 
