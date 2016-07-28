@@ -224,6 +224,6 @@ IFTTT also provides Do apps for iOS and Android. The app allows you to manually 
 
 ## Misc
 
-## Yahoo wheather codes used in IFTTT Weather trigger
+### Yahoo wheather codes used in IFTTT Weather trigger
 
 https://developer.yahoo.com/weather/documentation.html#codes
