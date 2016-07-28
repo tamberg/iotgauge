@@ -174,7 +174,9 @@ Try any position between 1 and 5. Make sure the servo moved to the desired posit
 
 IFTTT lets you create recipes connecting a trigger to an action.
 
-* Visit https://ifttt.com/myrecipes/personal/new (sign up if you haven't yet)
+* Sign up at https://ifttt.com/
+* On your smartphone, install the IFTTT IF app https://ifttt.com/products/if
+* On your computer, visit https://ifttt.com/myrecipes/personal/new to create a new recipe
 * To choose a trigger channel, search for e.g. "Android Device" or "iOS Location" and select the channel icon
 * Then choose a trigger, e.g. Connects to a specific WiFi network (for Android)
 * Enter a network name or location
@@ -221,9 +223,3 @@ IFTTT also provides Do apps for iOS and Android. The app allows you to manually 
 * Once created, the recipe can be edited online at https://ifttt.com/myrecipes/do
 
 <img src="http://cdn.instructables.com/FZ2/D7OS/ICEMT9V9/FZ2D7OSICEMT9V9.MEDIUM.jpg" width="512" />
-
-## Misc
-
-### Yahoo wheather codes used in IFTTT Weather trigger
-
-https://developer.yahoo.com/weather/documentation.html#codes
