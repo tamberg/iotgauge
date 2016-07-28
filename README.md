@@ -100,6 +100,10 @@ Make sure the nice side of the wood faces to the front.
 
 <img src="https://c1.staticflickr.com/9/8653/28482309991_4ee6f6ed70.jpg">
 
+### Testing the servo
+
+In the Arduino IDE, try _File > Examples > Servo (esp8266) > Sweep_.
+
 ### Mount the breadboard to the base plate
 
 Use zip wire or just stick the breadboard to the base plate.
