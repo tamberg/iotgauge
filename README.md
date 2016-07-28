@@ -122,7 +122,7 @@ Download the [YalerESP8266WiFiServer.zip](https://bitbucket.org/yaler/yalercontr
 
 On Mac OS X, extract the ZIP to `~/Documents/Arduino/libraries/YalerESP8266WiFiServer`
 
-On Windows, extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\YalerESP8266WiFiServer`
+On Windows, extract the ZIP to `C:\Users\USER_NAME\Documents\Arduino\Libraries\YalerESP8266WiFiServer` or _File Explorer > Libraries > Arduino_.
 
 Then, close and reopen the Arduino IDE to load the library.
 
